@@ -13,6 +13,7 @@ import { MessagesComponent } from './messages/messages.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ContactoComponent } from './contacto/contacto.component';
     HeroDetailComponent,
     MessagesComponent,
     DashboardComponent,
-    ContactoComponent
+    ContactoComponent,
+    SignInComponent
   ],
   imports: [
     BrowserModule,
